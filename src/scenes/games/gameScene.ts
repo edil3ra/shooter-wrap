@@ -1,5 +1,5 @@
-import { Config } from '~/config'
 import { MyGame } from '~/game'
+import { Config } from '~/config'
 
 export class GameScene extends Phaser.Scene {
     public game: MyGame
@@ -8,11 +8,11 @@ export class GameScene extends Phaser.Scene {
     }
 
     init() {
-        console.log('hello')
+        this.add.image(0, 0, 'bullets')
     }
 
     create() {
-        console.log('create')
+        
     }
 
 }
