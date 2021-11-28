@@ -1,5 +1,6 @@
 import { BootScene } from '~/scenes/bootScene'
 import { GameScene } from '~/scenes/games/gameScene'
+import * as Phaser from 'phaser'
 
 export class MyGame extends Phaser.Game {
     constructor() {

@@ -72,7 +72,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Spherebreak',
+            title: 'shooter-wrap',
             template: 'src/index.ejs',
             filename: 'index.html',
             scriptLoading: 'defer',

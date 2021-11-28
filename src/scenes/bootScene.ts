@@ -1,3 +1,4 @@
+import * as Phaser from 'phaser'
 import { Config } from '~/config'
 import { MyGame } from '~/game'
 
