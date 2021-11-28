@@ -1,51 +1,102 @@
-const path = require('path');
+const webpack = require('webpack')
+const path = require("path")
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const pathToPhaser = path.join(__dirname, "/node_modules/phaser/")
+const phaser = path.join(pathToPhaser, "dist/phaser.js")
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ESLintPlugin = require('eslint-webpack-plugin');
-
-const phaserModule = path.join(__dirname, '/node_modules/phaser-ce/');
-const phaser = path.join(phaserModule, 'build/custom/phaser-arcade-physics.js');
-const pixi = path.join(phaserModule, 'build/custom/pixi.js');
-const p2 = path.join(phaserModule, 'build/custom/p2.js');
-const howler = path.join(__dirname, '/node_modules/howler/dist/howler.min.js');
 
 module.exports = {
-  entry: {
-    app: [
-      path.resolve(__dirname, 'src/app.ts')
+    mode: 'development',
+    devServer: {
+        contentBase: path.join(__dirname, 'public'),
+        host: `localhost`,
+        hot:true,
+    },
+    entry: {
+        app: [
+            path.resolve(__dirname, 'src/main.ts'),
+        ],
+        vendor: ['phaser'],
+    },
+    devtool: 'inline-source-map',
+    output: {
+        path: path.resolve(__dirname, "public"),
+        publicPath: '/',
+        filename: '[name].js',
+        chunkFilename: '[name].js'
+    },
+    resolve: {
+        extensions: [".ts", ".js"],
+        alias: {
+            phaser: phaser,
+            "~": path.resolve(__dirname, 'src'),
+        }
+    },
+    module: {
+        rules: [{
+            test: /\.ts$/,
+            use: {
+                loader: 'ts-loader',
+                options: {
+                    configFile: "tsconfig.json"
+                },  
+            },
+            exclude: [
+                path.resolve(__dirname, "typings"),
+                path.resolve(__dirname, "node_modules")
+            ],
+        }, {
+            test: /phaser\.js$/, loader: "expose-loader?Phaser"
+        }, {
+            test: /\.scss$/,
+            use: [
+                MiniCssExtractPlugin.loader,
+                {
+                    loader: 'css-loader'
+                },
+                {
+                    loader: 'sass-loader',
+                    options: {
+                        sourceMap: true,
+                    }
+                }
+            ]
+        }]
+    },
+    optimization: {
+        runtimeChunk: "single", // enable "runtime" chunk
+        splitChunks: {
+            cacheGroups: {
+                vendor: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: "vendor",
+                    chunks: "all"
+                }
+            }
+        }
+    },
+    plugins: [
+        new webpack.DefinePlugin({
+            CANVAS_RENDERER: JSON.stringify(true),
+            WEBGL_RENDERER: JSON.stringify(true),
+            PLUGIN_FBINSTANT: JSON.stringify(true),
+        }),
+        new HtmlWebpackPlugin({
+            title: 'shooter-wrap',
+            template: 'src/index.ejs',
+            filename: 'index.html',
+            scriptLoading: 'defer',
+        }),
+        new webpack.EnvironmentPlugin({
+            DEBUG: process.env.DEBUG || true
+        }),
+        new MiniCssExtractPlugin({filename: 'css/mystyles.css'}),
+        new BundleAnalyzerPlugin({
+            analyzerMode: 'server',
+            port: 8888,
+            openAnalyzer: false,
+        }),
     ]
-  },
-  output: {
-    filename: '[name].bundle.js',
-    path: path.resolve('./dist'),
-    publicPath: '/'
-  },
-  plugins: [
-    new ESLintPlugin({
-      files: ['./src/**/*.ts']
-    }),
-    new HtmlWebpackPlugin({
-      template: './index.html',
-      inject: 'body'
-    })
-  ],
-  module: {
-    rules: [
-      { test: /\.ts?$/, loader: 'ts-loader', exclude: '/node_modules/' },
-      { test: /\.js?$/, loader: 'eslint-loader', exclude: '/node_modules/' },
-      { test: /pixi\.js/, loader: 'expose-loader?PIXI' },
-      { test: /phaser-arcade-physics\.js/, loader: 'expose-loader?Phaser' },
-      { test: /howler\.min\.js/, loader: 'expose-loader?Howler' },
-      { test: /p2\.js$/, loader: 'expose-loader?p2' }
-    ]
-  },
-  resolve: {
-    extensions: ['.js', '.ts'],
-    alias: {
-      'phaser-ce': phaser,
-      'pixi': pixi,
-      'p2': p2,
-      'howler': howler
-    }
-  }
-};
+}

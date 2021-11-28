@@ -1,71 +1,85 @@
-const path = require('path');
+const webpack = require('webpack')
+const path = require('path')
+const TerserPlugin = require('terser-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const pathToPhaser = path.join(__dirname, "/node_modules/phaser/")
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const phaser = path.join(pathToPhaser, "dist/phaser.js")
 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-const JavaScriptObfuscator = require('webpack-obfuscator');
-
-const phaserModule = path.join(__dirname, '/node_modules/phaser-ce/');
-const phaser = path.join(phaserModule, 'build/custom/phaser-arcade-physics.js');
-const pixi = path.join(phaserModule, 'build/custom/pixi.js');
-const p2 = path.join(phaserModule, 'build/custom/p2.js');
-const howler = path.join(__dirname, '/node_modules/howler/dist/howler.min.js');
 
 module.exports = {
-  entry: {
-    app: path.resolve(__dirname, 'src/app.ts')
-  },
-  output: {
-    filename: '[name].bundle.js',
-    path: path.resolve('./dist'),
-    publicPath: '/'
-  },
-  plugins: [
-    new CopyWebpackPlugin([
-      {
-        from: './assets',
-        to: './assets'
-      }
-    ]),
-    new JavaScriptObfuscator({
-      rotateUnicodeArray: true
-    }, ['vendor.bundle.js']),
-    new HtmlWebpackPlugin({
-      template: './index.html',
-      inject: 'body',
-    })
-  ],
-  optimization: {
-    splitChunks: {
-      cacheGroups: {
-        vendor: {
-          test: /node_modules/,
-          chunks: "initial",
-          name: "vendor",
-          priority: 10,
-          enforce: true
-        }
-      }
+    mode: 'production',
+    entry: {
+        'js/app': [
+            path.resolve(__dirname, 'src/main.ts')
+        ],
     },
-    minimizer: [new UglifyJsPlugin()],
-  },
-  module: {
-    rules: [
-      { test: /\.ts?$/, loader: 'ts-loader', exclude: '/node_modules/' },
-      { test: /\.js?$/, loader: 'eslint-loader', exclude: '/node_modules/' },
-      { test: /pixi\.js/, loader: 'expose-loader?PIXI' },
-      { test: /phaser-arcade-physics\.js/, loader: 'expose-loader?Phaser' },
-      { test: /howler\.min\.js/, loader: 'expose-loader?Howler' },
-      { test: /p2\.js$/, loader: 'expose-loader?p2' }
+    output: {
+        path: path.resolve(__dirname, 'public'),
+        publicPath: '',
+        filename: '[name].[hash].js',
+        chunkFilename: '[name].[hash].js'
+    },
+    resolve: {
+        extensions: ['.ts', '.js'],
+        alias: {
+            phaser: phaser,
+            "~": path.resolve(__dirname, 'src'),
+        }
+    },
+    module: {
+        rules: [{
+            test: /\.ts?$/,
+            use: {
+                loader: 'ts-loader',
+                options: {
+                    configFile: "tsconfig.json"
+                },  
+            },
+            exclude: [
+                path.resolve(__dirname, "typings"),
+                path.resolve(__dirname, "node_modules"),
+            ],
+        }, {
+            test: /\.scss$/,
+            use: [
+                MiniCssExtractPlugin.loader,
+                {
+                    loader: 'css-loader'
+                },
+                {
+                    loader: 'sass-loader',
+                    options: {
+                        sourceMap: false,
+                    }
+                }
+            ]
+        }]
+    },
+    optimization: {
+        minimize: true,
+        minimizer: [new TerserPlugin()],
+        splitChunks: {
+            cacheGroups: {
+                'js/vendor': {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: "js/vendor",
+                    chunks: "all"
+                }
+            }
+        }
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: 'Spherebreak',
+            template: 'src/index.ejs',
+            filename: 'index.html',
+            scriptLoading: 'defer',
+        }),
+        new webpack.EnvironmentPlugin({
+            DEBUG: process.env.DEBUG || false
+        }),
+        new MiniCssExtractPlugin({filename: 'css/mystyles.css'}),
     ]
-  },
-  resolve: {
-    extensions: ['.js', '.ts'],
-    alias: {
-      'phaser-ce': phaser,
-      'pixi': pixi,
-      'p2': p2,
-      'howler': howler
-    }
-  }
-};
+}
