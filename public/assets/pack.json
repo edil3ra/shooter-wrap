@@ -2,10 +2,16 @@
     "preload": {
         "files": [
             {
-                "type": "atlasXML",
+                "type": "atlas",
                 "key": "bullets",
                 "textureURL": "assets/images/bullets.png",
-                "atlasURL": "assets/xml/bullets.xml"
+                "atlasURL": "assets/json/bullets.json"
+            },
+            {
+                "type": "atlas",
+                "key": "ships",
+                "textureURL": "assets/images/ships.png",
+                "atlasURL": "assets/json/ships.json"
             }
         ]
     }

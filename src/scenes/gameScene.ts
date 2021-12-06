@@ -1,14 +1,16 @@
 import { MyGame } from '~/game'
 import { Config } from '~/config'
+import { Player } from '~/entities/player'
 
 export class GameScene extends Phaser.Scene {
-    public game: MyGame
+    game: MyGame
+    player: Player
     constructor() {
         super({ key: Config.scenes.keys.game })
     }
 
     init() {
-        this.add.image(0, 0, 'bullets')
+        this.player = new Player(this.game, 20, 20)
     }
 
     create() {

@@ -1,0 +1,5585 @@
+{
+	"textures": [
+		{
+			"image": "ships.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1465,
+				"h": 512
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "F15CEagle_Basic_237x273.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "F15CEagle_Light_237x273.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 1,
+						"y": 67,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "LowPoly_Angel_Aqua_155x122.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 67,
+						"y": 1,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "LowPoly_Angel_Blue_155x122.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 1,
+						"y": 133,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "LowPoly_Angel_Green_155x122.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 67,
+						"y": 67,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "LowPoly_Angel_Pink_155x122.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 133,
+						"y": 1,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "LowPoly_Angel_Red_155x122.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 1,
+						"y": 199,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "Techno Space Game pt1 Color Palette - color-hex.com.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 67,
+						"y": 133,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "UFO_Cortex_69x69.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 133,
+						"y": 67,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "UFO_Ice_69x69.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 199,
+						"y": 1,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "UFO_Mutant_69x69.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 1,
+						"y": 265,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "UFO_PlasmaShield_Cortex_69x69.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 67,
+						"y": 199,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "UFO_PlasmaShield_Interference_69x69.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 133,
+						"y": 133,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "UFO_PlasmaShield_Pink_69x69.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 199,
+						"y": 67,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "UFO_PlasmaShield_Red_69x69.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"frame": {
+						"x": 265,
+						"y": 1,
+						"w": 64,
+						"h": 64
+					}
+				},
+				{
+					"filename": "Overlord_Nightmare_A_261x235.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 1,
+						"y": 331,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Overlord_Nightmare_B_261x235.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 67,
+						"y": 265,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Overlord_Nightmare_C_261x235.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 133,
+						"y": 199,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Overlord_Nightmare_D_261x235.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 199,
+						"y": 133,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Overlord_Nightmare_E_261x235.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 265,
+						"y": 67,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Overlord_Nightmare_F_261x235.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 62,
+						"h": 62
+					},
+					"frame": {
+						"x": 331,
+						"y": 1,
+						"w": 62,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Overlord_C_Evo2_219x183.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 62,
+						"h": 61
+					},
+					"frame": {
+						"x": 1,
+						"y": 395,
+						"w": 62,
+						"h": 61
+					}
+				},
+				{
+					"filename": "Angel_126x144.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 6,
+						"w": 58,
+						"h": 53
+					},
+					"frame": {
+						"x": 1,
+						"y": 458,
+						"w": 58,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Overlord_C_Evo_219x183.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 2,
+						"w": 62,
+						"h": 61
+					},
+					"frame": {
+						"x": 395,
+						"y": 1,
+						"w": 62,
+						"h": 61
+					}
+				},
+				{
+					"filename": "LowPoly_Falcon_BlueLight_174x149.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 60,
+						"h": 62
+					},
+					"frame": {
+						"x": 459,
+						"y": 1,
+						"w": 60,
+						"h": 62
+					}
+				},
+				{
+					"filename": "LowPoly_Falcon_Blue_174x149.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 60,
+						"h": 62
+					},
+					"frame": {
+						"x": 521,
+						"y": 1,
+						"w": 60,
+						"h": 62
+					}
+				},
+				{
+					"filename": "LowPoly_Falcon_SepiaLight_174x149.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 60,
+						"h": 62
+					},
+					"frame": {
+						"x": 583,
+						"y": 1,
+						"w": 60,
+						"h": 62
+					}
+				},
+				{
+					"filename": "LowPoly_Falcon_Sepia_174x149.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 60,
+						"h": 62
+					},
+					"frame": {
+						"x": 645,
+						"y": 1,
+						"w": 60,
+						"h": 62
+					}
+				},
+				{
+					"filename": "Overlord_01_119x161.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 60,
+						"h": 60
+					},
+					"frame": {
+						"x": 707,
+						"y": 1,
+						"w": 60,
+						"h": 60
+					}
+				},
+				{
+					"filename": "Overlord_02_119x161.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 60,
+						"h": 60
+					},
+					"frame": {
+						"x": 769,
+						"y": 1,
+						"w": 60,
+						"h": 60
+					}
+				},
+				{
+					"filename": "FireBird_Evo_Text.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 58,
+						"h": 58
+					},
+					"frame": {
+						"x": 831,
+						"y": 1,
+						"w": 58,
+						"h": 58
+					}
+				},
+				{
+					"filename": "UPMLab_A_120x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 58,
+						"h": 58
+					},
+					"frame": {
+						"x": 891,
+						"y": 1,
+						"w": 58,
+						"h": 58
+					}
+				},
+				{
+					"filename": "UPMLab_B_120x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 58,
+						"h": 58
+					},
+					"frame": {
+						"x": 951,
+						"y": 1,
+						"w": 58,
+						"h": 58
+					}
+				},
+				{
+					"filename": "UPMLab_C_120x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 58,
+						"h": 58
+					},
+					"frame": {
+						"x": 1011,
+						"y": 1,
+						"w": 58,
+						"h": 58
+					}
+				},
+				{
+					"filename": "UPMLab_D_120x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 58,
+						"h": 58
+					},
+					"frame": {
+						"x": 1071,
+						"y": 1,
+						"w": 58,
+						"h": 58
+					}
+				},
+				{
+					"filename": "UPMLab_E_Magic_120x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 58,
+						"h": 58
+					},
+					"frame": {
+						"x": 1131,
+						"y": 1,
+						"w": 58,
+						"h": 58
+					}
+				},
+				{
+					"filename": "Angel_B_Crystal_126x144.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 6,
+						"w": 58,
+						"h": 53
+					},
+					"frame": {
+						"x": 61,
+						"y": 458,
+						"w": 58,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Galactis_EcoPower_153x188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 57,
+						"h": 59
+					},
+					"frame": {
+						"x": 1191,
+						"y": 1,
+						"w": 57,
+						"h": 59
+					}
+				},
+				{
+					"filename": "MiniBattlecruiser_C_123x148.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 58,
+						"h": 57
+					},
+					"frame": {
+						"x": 1250,
+						"y": 1,
+						"w": 58,
+						"h": 57
+					}
+				},
+				{
+					"filename": "Torpedo_C_Spider_111x137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 5,
+						"w": 58,
+						"h": 57
+					},
+					"frame": {
+						"x": 1310,
+						"y": 1,
+						"w": 58,
+						"h": 57
+					}
+				},
+				{
+					"filename": "SwordShip_Blade_188x188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 57,
+						"h": 58
+					},
+					"frame": {
+						"x": 1370,
+						"y": 1,
+						"w": 57,
+						"h": 58
+					}
+				},
+				{
+					"filename": "Flash_B_71x75.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 8,
+						"w": 35,
+						"h": 47
+					},
+					"frame": {
+						"x": 1429,
+						"y": 1,
+						"w": 35,
+						"h": 47
+					}
+				},
+				{
+					"filename": "Flash_A_71x75.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 12,
+						"w": 35,
+						"h": 40
+					},
+					"frame": {
+						"x": 1429,
+						"y": 50,
+						"w": 35,
+						"h": 40
+					}
+				},
+				{
+					"filename": "Stalker_Neon_100x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 10,
+						"w": 61,
+						"h": 48
+					},
+					"frame": {
+						"x": 133,
+						"y": 263,
+						"w": 61,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Stalker_Night_100x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 10,
+						"w": 61,
+						"h": 48
+					},
+					"frame": {
+						"x": 131,
+						"y": 313,
+						"w": 61,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Stalker_Sky_100x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 10,
+						"w": 61,
+						"h": 48
+					},
+					"frame": {
+						"x": 199,
+						"y": 197,
+						"w": 61,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Stalker_Sun_100x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 10,
+						"w": 61,
+						"h": 48
+					},
+					"frame": {
+						"x": 197,
+						"y": 247,
+						"w": 61,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Mutant_SpaceMorphWasp_Mother_281x299.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 5,
+						"w": 59,
+						"h": 54
+					},
+					"frame": {
+						"x": 196,
+						"y": 297,
+						"w": 59,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Proton_B_Defender_100x189.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 8,
+						"w": 59,
+						"h": 48
+					},
+					"frame": {
+						"x": 194,
+						"y": 353,
+						"w": 59,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Angel_C_Phoenix_126x144.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 6,
+						"w": 58,
+						"h": 53
+					},
+					"frame": {
+						"x": 65,
+						"y": 403,
+						"w": 58,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Fear_A_Shadow_100x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 53,
+						"h": 53
+					},
+					"frame": {
+						"x": 121,
+						"y": 458,
+						"w": 53,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Fear_B_Magma_100x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 53,
+						"h": 53
+					},
+					"frame": {
+						"x": 125,
+						"y": 403,
+						"w": 53,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Fear_C_Ice_100x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 53,
+						"h": 53
+					},
+					"frame": {
+						"x": 176,
+						"y": 458,
+						"w": 53,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Plasma_Circle_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 53,
+						"h": 53
+					},
+					"frame": {
+						"x": 180,
+						"y": 403,
+						"w": 53,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Buggy_Aqua_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 231,
+						"y": 458,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Buggy_Black_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 235,
+						"y": 403,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Buggy_BlueSpecial_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 274,
+						"y": 458,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Component_WingShip_Mutant_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 14,
+						"w": 37,
+						"h": 38
+					},
+					"frame": {
+						"x": 65,
+						"y": 363,
+						"w": 37,
+						"h": 38
+					}
+				},
+				{
+					"filename": "Bug_Bloody_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 43,
+						"h": 48
+					},
+					"frame": {
+						"x": 255,
+						"y": 353,
+						"w": 43,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Buggy_Butter_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 278,
+						"y": 403,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Buggy_Fuchsia_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 317,
+						"y": 458,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Firebird_B_Supreme_345x161.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 5,
+						"w": 58,
+						"h": 54
+					},
+					"frame": {
+						"x": 257,
+						"y": 297,
+						"w": 58,
+						"h": 54
+					}
+				},
+				{
+					"filename": "MotherShip_111x154.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 50,
+						"h": 48
+					},
+					"frame": {
+						"x": 260,
+						"y": 247,
+						"w": 50,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Bug_Devil_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 43,
+						"h": 48
+					},
+					"frame": {
+						"x": 262,
+						"y": 197,
+						"w": 43,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Bug_VisionStar_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 43,
+						"h": 48
+					},
+					"frame": {
+						"x": 300,
+						"y": 353,
+						"w": 43,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Buggy_Green_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 321,
+						"y": 403,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Buggy_LightCyan_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 360,
+						"y": 458,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Mutant_SpaceMorphWasp_Mother_281x280.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 16,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 67,
+						"y": 329,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "Component_WingShip_Cruiser_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 24,
+						"w": 28,
+						"h": 17
+					},
+					"frame": {
+						"x": 101,
+						"y": 329,
+						"w": 28,
+						"h": 17
+					}
+				},
+				{
+					"filename": "AngelWing_G_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 7,
+						"w": 25,
+						"h": 37
+					},
+					"frame": {
+						"x": 104,
+						"y": 348,
+						"w": 25,
+						"h": 37
+					}
+				},
+				{
+					"filename": "AquaCruiser_B_122x122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 16,
+						"w": 47,
+						"h": 36
+					},
+					"frame": {
+						"x": 131,
+						"y": 363,
+						"w": 47,
+						"h": 36
+					}
+				},
+				{
+					"filename": "DragonShip_Aqua_124x121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 0,
+						"w": 53,
+						"h": 60
+					},
+					"frame": {
+						"x": 263,
+						"y": 133,
+						"w": 53,
+						"h": 60
+					}
+				},
+				{
+					"filename": "DragonShip_Green_124x121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 0,
+						"w": 53,
+						"h": 60
+					},
+					"frame": {
+						"x": 318,
+						"y": 131,
+						"w": 53,
+						"h": 60
+					}
+				},
+				{
+					"filename": "CoreDefender_C_Compact_Evo_209x182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 5,
+						"w": 32,
+						"h": 50
+					},
+					"frame": {
+						"x": 307,
+						"y": 195,
+						"w": 32,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Buggy_LightPurple_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 341,
+						"y": 193,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Overlord_B_Supreme_245x245.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 7,
+						"w": 56,
+						"h": 46
+					},
+					"frame": {
+						"x": 312,
+						"y": 248,
+						"w": 56,
+						"h": 46
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_01.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 317,
+						"y": 296,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "CoreDefender_B_Compact_209x182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 5,
+						"w": 31,
+						"h": 49
+					},
+					"frame": {
+						"x": 345,
+						"y": 352,
+						"w": 31,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Buggy_Orange_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 364,
+						"y": 403,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Buggy_Pink_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 403,
+						"y": 458,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Bug_Cybernetic_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 9,
+						"w": 43,
+						"h": 46
+					},
+					"frame": {
+						"x": 370,
+						"y": 248,
+						"w": 43,
+						"h": 46
+					}
+				},
+				{
+					"filename": "Flash_C_71x75.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 5,
+						"w": 41,
+						"h": 54
+					},
+					"frame": {
+						"x": 372,
+						"y": 296,
+						"w": 41,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Flash_10_80x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 378,
+						"y": 352,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Buggy_Purple_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 407,
+						"y": 403,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Buggy_RedSpecial_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 446,
+						"y": 458,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "DragonShip_Orange_124x121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 0,
+						"w": 53,
+						"h": 60
+					},
+					"frame": {
+						"x": 329,
+						"y": 67,
+						"w": 53,
+						"h": 60
+					}
+				},
+				{
+					"filename": "GingerFighter_A_307x299.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 50,
+						"h": 60
+					},
+					"frame": {
+						"x": 384,
+						"y": 65,
+						"w": 50,
+						"h": 60
+					}
+				},
+				{
+					"filename": "SwordShip_FireBlade_188x188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 57,
+						"h": 58
+					},
+					"frame": {
+						"x": 436,
+						"y": 65,
+						"w": 57,
+						"h": 58
+					}
+				},
+				{
+					"filename": "SwordShip_Adventure_188x188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 56,
+						"h": 58
+					},
+					"frame": {
+						"x": 495,
+						"y": 65,
+						"w": 56,
+						"h": 58
+					}
+				},
+				{
+					"filename": "SwordShip_BurnHearth_188x188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 56,
+						"h": 58
+					},
+					"frame": {
+						"x": 553,
+						"y": 65,
+						"w": 56,
+						"h": 58
+					}
+				},
+				{
+					"filename": "SwordShip_IceBlade_188x188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 56,
+						"h": 58
+					},
+					"frame": {
+						"x": 611,
+						"y": 65,
+						"w": 56,
+						"h": 58
+					}
+				},
+				{
+					"filename": "DragonShip_XBlueGlow_130x127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 1,
+						"w": 52,
+						"h": 59
+					},
+					"frame": {
+						"x": 669,
+						"y": 65,
+						"w": 52,
+						"h": 59
+					}
+				},
+				{
+					"filename": "SwordShip_MagicGlow_188x188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 56,
+						"h": 58
+					},
+					"frame": {
+						"x": 723,
+						"y": 63,
+						"w": 56,
+						"h": 58
+					}
+				},
+				{
+					"filename": "DragonShip_XPurpGlow_130x127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 1,
+						"w": 52,
+						"h": 59
+					},
+					"frame": {
+						"x": 781,
+						"y": 63,
+						"w": 52,
+						"h": 59
+					}
+				},
+				{
+					"filename": "TinyCruiser_Green_64x64.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 57,
+						"h": 57
+					},
+					"frame": {
+						"x": 835,
+						"y": 61,
+						"w": 57,
+						"h": 57
+					}
+				},
+				{
+					"filename": "TinyCruiser_Ice_64x64.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 57,
+						"h": 57
+					},
+					"frame": {
+						"x": 894,
+						"y": 61,
+						"w": 57,
+						"h": 57
+					}
+				},
+				{
+					"filename": "TinyCruiser_Metal_64x64.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 57,
+						"h": 57
+					},
+					"frame": {
+						"x": 953,
+						"y": 61,
+						"w": 57,
+						"h": 57
+					}
+				},
+				{
+					"filename": "TinyCruiser_Orange_64x64.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 57,
+						"h": 57
+					},
+					"frame": {
+						"x": 1012,
+						"y": 61,
+						"w": 57,
+						"h": 57
+					}
+				},
+				{
+					"filename": "TinyCruiser_Pinky_64x64.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 57,
+						"h": 57
+					},
+					"frame": {
+						"x": 1071,
+						"y": 61,
+						"w": 57,
+						"h": 57
+					}
+				},
+				{
+					"filename": "TinyCruiser_Yellow_64x64.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 57,
+						"h": 57
+					},
+					"frame": {
+						"x": 1130,
+						"y": 61,
+						"w": 57,
+						"h": 57
+					}
+				},
+				{
+					"filename": "CoreDefender_E_NightMare_209x182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 56,
+						"h": 56
+					},
+					"frame": {
+						"x": 1189,
+						"y": 62,
+						"w": 56,
+						"h": 56
+					}
+				},
+				{
+					"filename": "GingerFighter_B_Ice_307x299.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 50,
+						"h": 60
+					},
+					"frame": {
+						"x": 373,
+						"y": 129,
+						"w": 50,
+						"h": 60
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_02.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 384,
+						"y": 191,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "GingerFighter_C_Light_Green_307x299.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 50,
+						"h": 60
+					},
+					"frame": {
+						"x": 415,
+						"y": 247,
+						"w": 50,
+						"h": 60
+					}
+				},
+				{
+					"filename": "Proton_A_100x189.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 14,
+						"w": 43,
+						"h": 40
+					},
+					"frame": {
+						"x": 415,
+						"y": 309,
+						"w": 43,
+						"h": 40
+					}
+				},
+				{
+					"filename": "Ionic_Orb_A_84x84.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 8,
+						"w": 48,
+						"h": 50
+					},
+					"frame": {
+						"x": 430,
+						"y": 351,
+						"w": 48,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Buggy_Red_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 450,
+						"y": 403,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "Buggy_Salmon_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 489,
+						"y": 458,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "GingerFighter_D_Blue_307x299.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 50,
+						"h": 60
+					},
+					"frame": {
+						"x": 425,
+						"y": 127,
+						"w": 50,
+						"h": 60
+					}
+				},
+				{
+					"filename": "CoreDefender_D_Compact_Evo_OP_209x182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 5,
+						"w": 42,
+						"h": 56
+					},
+					"frame": {
+						"x": 439,
+						"y": 189,
+						"w": 42,
+						"h": 56
+					}
+				},
+				{
+					"filename": "Galactis_Ancient_153x188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 55,
+						"h": 58
+					},
+					"frame": {
+						"x": 477,
+						"y": 125,
+						"w": 55,
+						"h": 58
+					}
+				},
+				{
+					"filename": "Galactis_BlackWidow_153x188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 55,
+						"h": 58
+					},
+					"frame": {
+						"x": 534,
+						"y": 125,
+						"w": 55,
+						"h": 58
+					}
+				},
+				{
+					"filename": "Galactis_MoonLight_153x188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 55,
+						"h": 58
+					},
+					"frame": {
+						"x": 591,
+						"y": 125,
+						"w": 55,
+						"h": 58
+					}
+				},
+				{
+					"filename": "Galactis_Mutant_153x188.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 55,
+						"h": 58
+					},
+					"frame": {
+						"x": 483,
+						"y": 185,
+						"w": 55,
+						"h": 58
+					}
+				},
+				{
+					"filename": "CoreDefender_F_NightMare_Scarlet_209x182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 56,
+						"h": 56
+					},
+					"frame": {
+						"x": 540,
+						"y": 185,
+						"w": 56,
+						"h": 56
+					}
+				},
+				{
+					"filename": "CoreDefender_NightMare_G_ScarletDarkness_209x182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 56,
+						"h": 56
+					},
+					"frame": {
+						"x": 598,
+						"y": 185,
+						"w": 56,
+						"h": 56
+					}
+				},
+				{
+					"filename": "MiniBattlecruiser_B_123x148.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 55,
+						"h": 57
+					},
+					"frame": {
+						"x": 648,
+						"y": 126,
+						"w": 55,
+						"h": 57
+					}
+				},
+				{
+					"filename": "CoreDefender_NightMare_H_Judgement_209x182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 56,
+						"h": 56
+					},
+					"frame": {
+						"x": 656,
+						"y": 185,
+						"w": 56,
+						"h": 56
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_A.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 54,
+						"h": 57
+					},
+					"frame": {
+						"x": 705,
+						"y": 126,
+						"w": 54,
+						"h": 57
+					}
+				},
+				{
+					"filename": "CoreDefender_NightMare_I_JudgementDarkness_209x182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 5,
+						"w": 56,
+						"h": 56
+					},
+					"frame": {
+						"x": 714,
+						"y": 185,
+						"w": 56,
+						"h": 56
+					}
+				},
+				{
+					"filename": "Mutant_SpaceMorphWasp_Mother_269x258.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 56,
+						"h": 56
+					},
+					"frame": {
+						"x": 761,
+						"y": 124,
+						"w": 56,
+						"h": 56
+					}
+				},
+				{
+					"filename": "GingerFighter_E_Purple_307x299.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 50,
+						"h": 60
+					},
+					"frame": {
+						"x": 772,
+						"y": 182,
+						"w": 50,
+						"h": 60
+					}
+				},
+				{
+					"filename": "CoreDefender_A_209x182.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 0,
+						"w": 27,
+						"h": 56
+					},
+					"frame": {
+						"x": 819,
+						"y": 124,
+						"w": 27,
+						"h": 56
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_A_No_OutLine.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 54,
+						"h": 57
+					},
+					"frame": {
+						"x": 848,
+						"y": 120,
+						"w": 54,
+						"h": 57
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_B_No_OutLine.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 4,
+						"w": 55,
+						"h": 56
+					},
+					"frame": {
+						"x": 904,
+						"y": 120,
+						"w": 55,
+						"h": 56
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_Extreme.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 4,
+						"w": 55,
+						"h": 56
+					},
+					"frame": {
+						"x": 961,
+						"y": 120,
+						"w": 55,
+						"h": 56
+					}
+				},
+				{
+					"filename": "Phantom_61x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 4,
+						"w": 55,
+						"h": 56
+					},
+					"frame": {
+						"x": 1018,
+						"y": 120,
+						"w": 55,
+						"h": 56
+					}
+				},
+				{
+					"filename": "Magicfly_47x65.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 53,
+						"h": 56
+					},
+					"frame": {
+						"x": 1075,
+						"y": 120,
+						"w": 53,
+						"h": 56
+					}
+				},
+				{
+					"filename": "MiniBattlecruiser_A_123x148.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 52,
+						"h": 57
+					},
+					"frame": {
+						"x": 1130,
+						"y": 120,
+						"w": 52,
+						"h": 57
+					}
+				},
+				{
+					"filename": "LowPoly_SpaceStation_BlueLight_190x162.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 51,
+						"h": 60
+					},
+					"frame": {
+						"x": 1184,
+						"y": 120,
+						"w": 51,
+						"h": 60
+					}
+				},
+				{
+					"filename": "GingerFighter_F_Pinky_307x299.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 50,
+						"h": 60
+					},
+					"frame": {
+						"x": 824,
+						"y": 182,
+						"w": 50,
+						"h": 60
+					}
+				},
+				{
+					"filename": "LowPoly_SpaceStation_Blue_190x162.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 51,
+						"h": 60
+					},
+					"frame": {
+						"x": 876,
+						"y": 179,
+						"w": 51,
+						"h": 60
+					}
+				},
+				{
+					"filename": "LowPoly_SpaceStation_Gray_190x162.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 51,
+						"h": 60
+					},
+					"frame": {
+						"x": 929,
+						"y": 178,
+						"w": 51,
+						"h": 60
+					}
+				},
+				{
+					"filename": "LowPoly_SpaceStation_IcePalace_190x162.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 51,
+						"h": 60
+					},
+					"frame": {
+						"x": 982,
+						"y": 178,
+						"w": 51,
+						"h": 60
+					}
+				},
+				{
+					"filename": "LowPoly_SpaceStation_PinkMagic_190x162.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 51,
+						"h": 60
+					},
+					"frame": {
+						"x": 1035,
+						"y": 178,
+						"w": 51,
+						"h": 60
+					}
+				},
+				{
+					"filename": "Flame_37x56.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 5,
+						"w": 38,
+						"h": 54
+					},
+					"frame": {
+						"x": 1088,
+						"y": 178,
+						"w": 38,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_03.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 1128,
+						"y": 179,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_04.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 1183,
+						"y": 182,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "LowPoly_SpaceStation_Purple_190x162.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 51,
+						"h": 60
+					},
+					"frame": {
+						"x": 467,
+						"y": 247,
+						"w": 51,
+						"h": 60
+					}
+				},
+				{
+					"filename": "Overlord_A_245x245.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 13,
+						"w": 30,
+						"h": 40
+					},
+					"frame": {
+						"x": 460,
+						"y": 309,
+						"w": 30,
+						"h": 40
+					}
+				},
+				{
+					"filename": "LowPoly_SpaceStation_Red_190x162.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 51,
+						"h": 60
+					},
+					"frame": {
+						"x": 520,
+						"y": 245,
+						"w": 51,
+						"h": 60
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_05.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 573,
+						"y": 243,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_06.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 628,
+						"y": 243,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_07.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 683,
+						"y": 243,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "AngelWing_H_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 7,
+						"w": 32,
+						"h": 47
+					},
+					"frame": {
+						"x": 738,
+						"y": 243,
+						"w": 32,
+						"h": 47
+					}
+				},
+				{
+					"filename": "StalkerEvo_Neon_100x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 7,
+						"w": 55,
+						"h": 51
+					},
+					"frame": {
+						"x": 772,
+						"y": 244,
+						"w": 55,
+						"h": 51
+					}
+				},
+				{
+					"filename": "AngelWing_J_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 51,
+						"h": 51
+					},
+					"frame": {
+						"x": 829,
+						"y": 244,
+						"w": 51,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_08.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 882,
+						"y": 241,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_09.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 937,
+						"y": 240,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 992,
+						"y": 240,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 1047,
+						"y": 240,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 1102,
+						"y": 235,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "StalkerEvo_Night_100x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 7,
+						"w": 55,
+						"h": 51
+					},
+					"frame": {
+						"x": 1157,
+						"y": 238,
+						"w": 55,
+						"h": 51
+					}
+				},
+				{
+					"filename": "AngelWing_I_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 7,
+						"w": 33,
+						"h": 51
+					},
+					"frame": {
+						"x": 1214,
+						"y": 238,
+						"w": 33,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Ionic_Orb_B_84x84.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 8,
+						"w": 48,
+						"h": 50
+					},
+					"frame": {
+						"x": 480,
+						"y": 351,
+						"w": 48,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Buggy_Yellow_63x69.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 4,
+						"w": 41,
+						"h": 53
+					},
+					"frame": {
+						"x": 493,
+						"y": 403,
+						"w": 41,
+						"h": 53
+					}
+				},
+				{
+					"filename": "LPST_Evo_Ancient_231x196.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 4,
+						"w": 49,
+						"h": 56
+					},
+					"frame": {
+						"x": 1237,
+						"y": 120,
+						"w": 49,
+						"h": 56
+					}
+				},
+				{
+					"filename": "LPST_Evo_Aqua_231x196.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 4,
+						"w": 49,
+						"h": 56
+					},
+					"frame": {
+						"x": 1238,
+						"y": 178,
+						"w": 49,
+						"h": 56
+					}
+				},
+				{
+					"filename": "LPST_Evo_Magma_231x196.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 4,
+						"w": 49,
+						"h": 56
+					},
+					"frame": {
+						"x": 1247,
+						"y": 62,
+						"w": 49,
+						"h": 56
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 1298,
+						"y": 60,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 1249,
+						"y": 236,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 1353,
+						"y": 61,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Z8FreedomFighter_Blade_110x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 56,
+						"h": 43
+					},
+					"frame": {
+						"x": 1408,
+						"y": 92,
+						"w": 56,
+						"h": 43
+					}
+				},
+				{
+					"filename": "PenBot_Cellular_8600GT_278x286.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 51,
+						"h": 56
+					},
+					"frame": {
+						"x": 1288,
+						"y": 120,
+						"w": 51,
+						"h": 56
+					}
+				},
+				{
+					"filename": "PenBot_Cellular_8600GT_OutlineOk_278x286.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 51,
+						"h": 56
+					},
+					"frame": {
+						"x": 1289,
+						"y": 178,
+						"w": 51,
+						"h": 56
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_B.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 1341,
+						"y": 117,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Turret_45x60.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 4,
+						"w": 51,
+						"h": 56
+					},
+					"frame": {
+						"x": 1342,
+						"y": 173,
+						"w": 51,
+						"h": 56
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_C.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 1304,
+						"y": 236,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Galactica_Ranger_C_No_OutLine.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 1359,
+						"y": 231,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Pirate_69x86.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 4,
+						"w": 50,
+						"h": 54
+					},
+					"frame": {
+						"x": 1414,
+						"y": 137,
+						"w": 50,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Object_Category_2_11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 9,
+						"w": 50,
+						"h": 51
+					},
+					"frame": {
+						"x": 1414,
+						"y": 193,
+						"w": 50,
+						"h": 51
+					}
+				},
+				{
+					"filename": "PenBot_A_359x359.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 50,
+						"h": 50
+					},
+					"frame": {
+						"x": 1414,
+						"y": 246,
+						"w": 50,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Cruiser_57x49.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 13,
+						"w": 53,
+						"h": 43
+					},
+					"frame": {
+						"x": 1359,
+						"y": 287,
+						"w": 53,
+						"h": 43
+					}
+				},
+				{
+					"filename": "PenBot_B_359x359.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 50,
+						"h": 50
+					},
+					"frame": {
+						"x": 1414,
+						"y": 298,
+						"w": 50,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Torpedo_A_111x137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 14,
+						"w": 30,
+						"h": 36
+					},
+					"frame": {
+						"x": 492,
+						"y": 309,
+						"w": 30,
+						"h": 36
+					}
+				},
+				{
+					"filename": "AquaCruiser_C_122x122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 11,
+						"w": 54,
+						"h": 42
+					},
+					"frame": {
+						"x": 524,
+						"y": 307,
+						"w": 54,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Object_Category_2_12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 9,
+						"w": 51,
+						"h": 50
+					},
+					"frame": {
+						"x": 530,
+						"y": 351,
+						"w": 51,
+						"h": 50
+					}
+				},
+				{
+					"filename": "Ionic_Orb_C_84x84.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 536,
+						"y": 403,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Mutant_SpaceMorphWasp_Mother_B_281x299.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 53,
+						"h": 52
+					},
+					"frame": {
+						"x": 532,
+						"y": 459,
+						"w": 53,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Observer_A_104x92.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 5,
+						"w": 53,
+						"h": 52
+					},
+					"frame": {
+						"x": 587,
+						"y": 459,
+						"w": 53,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Wings_B_96x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 6,
+						"w": 51,
+						"h": 49
+					},
+					"frame": {
+						"x": 580,
+						"y": 299,
+						"w": 51,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Scorpion_49x66.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 7,
+						"w": 52,
+						"h": 51
+					},
+					"frame": {
+						"x": 583,
+						"y": 350,
+						"w": 52,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Ionic_Orb_D_84x84.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 591,
+						"y": 403,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Observer_B_104x92.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 5,
+						"w": 53,
+						"h": 52
+					},
+					"frame": {
+						"x": 642,
+						"y": 459,
+						"w": 53,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Flash_11_80x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 633,
+						"y": 299,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "StalkerEvo_Sky_100x130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 7,
+						"w": 55,
+						"h": 51
+					},
+					"frame": {
+						"x": 637,
+						"y": 350,
+						"w": 55,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Ionic_Orb_E_84x84.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 646,
+						"y": 403,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Flash_1_80x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 685,
+						"y": 299,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Magicfly2_48x56.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 5,
+						"w": 48,
+						"h": 52
+					},
+					"frame": {
+						"x": 697,
+						"y": 459,
+						"w": 48,
+						"h": 52
+					}
+				},
+				{
+					"filename": "Bullet_44x62.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 5,
+						"w": 41,
+						"h": 51
+					},
+					"frame": {
+						"x": 694,
+						"y": 350,
+						"w": 41,
+						"h": 51
+					}
+				},
+				{
+					"filename": "SpikeEvil_84x108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 53,
+						"h": 54
+					},
+					"frame": {
+						"x": 701,
+						"y": 403,
+						"w": 53,
+						"h": 54
+					}
+				},
+				{
+					"filename": "Cruiser2_42x61.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 7,
+						"w": 44,
+						"h": 51
+					},
+					"frame": {
+						"x": 737,
+						"y": 350,
+						"w": 44,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Flash_2_80x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 737,
+						"y": 299,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "StalkerEvo_Sun_100x130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 7,
+						"w": 55,
+						"h": 51
+					},
+					"frame": {
+						"x": 789,
+						"y": 297,
+						"w": 55,
+						"h": 51
+					}
+				},
+				{
+					"filename": "Flash_3_80x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 783,
+						"y": 350,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Flash_4_80x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 846,
+						"y": 297,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Flash_5_80x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 898,
+						"y": 297,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Flash_6_80x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 950,
+						"y": 296,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Flash_7_80x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 1002,
+						"y": 296,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Flash_8_80x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 1054,
+						"y": 296,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Flash_9_80x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 9,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 1106,
+						"y": 291,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "MotherShip_Chrome_111x154.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 1158,
+						"y": 291,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Spike_84x108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 6,
+						"w": 37,
+						"h": 54
+					},
+					"frame": {
+						"x": 1210,
+						"y": 291,
+						"w": 37,
+						"h": 54
+					}
+				},
+				{
+					"filename": "MotherShip_Infected_111x154.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 1249,
+						"y": 292,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Z8FreedomFighter_Ice_110x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 56,
+						"h": 43
+					},
+					"frame": {
+						"x": 1301,
+						"y": 292,
+						"w": 56,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Firebird_A_345x161.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 5,
+						"w": 22,
+						"h": 54
+					},
+					"frame": {
+						"x": 756,
+						"y": 403,
+						"w": 22,
+						"h": 54
+					}
+				},
+				{
+					"filename": "IonCannon_B_Laser_119x119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 5,
+						"w": 44,
+						"h": 49
+					},
+					"frame": {
+						"x": 747,
+						"y": 459,
+						"w": 44,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Z8FreedomFighter_Magma_110x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 56,
+						"h": 43
+					},
+					"frame": {
+						"x": 1301,
+						"y": 337,
+						"w": 56,
+						"h": 43
+					}
+				},
+				{
+					"filename": "MotherShip_Lighting_111x154.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 1359,
+						"y": 332,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "MotherShip_Poison_111x154.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 1249,
+						"y": 343,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "MotherShip_Radioactive_111x154.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 50,
+						"h": 49
+					},
+					"frame": {
+						"x": 1411,
+						"y": 350,
+						"w": 50,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Z8FreedomFighter_MoonLight_110x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 56,
+						"h": 43
+					},
+					"frame": {
+						"x": 1301,
+						"y": 382,
+						"w": 56,
+						"h": 43
+					}
+				},
+				{
+					"filename": "PenBot_C_Evo_359x359.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 7,
+						"w": 49,
+						"h": 49
+					},
+					"frame": {
+						"x": 1359,
+						"y": 383,
+						"w": 49,
+						"h": 49
+					}
+				},
+				{
+					"filename": "Starship_A_96x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 45,
+						"h": 43
+					},
+					"frame": {
+						"x": 1410,
+						"y": 401,
+						"w": 45,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Z8FreedomFighter_Ocean_110x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 56,
+						"h": 43
+					},
+					"frame": {
+						"x": 1106,
+						"y": 342,
+						"w": 56,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Bug_Death_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 10,
+						"w": 44,
+						"h": 45
+					},
+					"frame": {
+						"x": 1164,
+						"y": 342,
+						"w": 44,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Torpedo_B_Evolved_111x137.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 9,
+						"w": 37,
+						"h": 48
+					},
+					"frame": {
+						"x": 1210,
+						"y": 347,
+						"w": 37,
+						"h": 48
+					}
+				},
+				{
+					"filename": "Bug_IceCube_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 9,
+						"w": 43,
+						"h": 47
+					},
+					"frame": {
+						"x": 835,
+						"y": 350,
+						"w": 43,
+						"h": 47
+					}
+				},
+				{
+					"filename": "Z8FreedomFighter_Scout_110x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 56,
+						"h": 43
+					},
+					"frame": {
+						"x": 880,
+						"y": 348,
+						"w": 56,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Z8FreedomFighter_Sky_110x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 56,
+						"h": 43
+					},
+					"frame": {
+						"x": 880,
+						"y": 393,
+						"w": 56,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Bug_Crash_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 43,
+						"h": 45
+					},
+					"frame": {
+						"x": 835,
+						"y": 399,
+						"w": 43,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Z8FreedomFighter_Stealth_110x110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 56,
+						"h": 43
+					},
+					"frame": {
+						"x": 880,
+						"y": 438,
+						"w": 56,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Bug_DeepFire_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 9,
+						"w": 43,
+						"h": 46
+					},
+					"frame": {
+						"x": 938,
+						"y": 348,
+						"w": 43,
+						"h": 46
+					}
+				},
+				{
+					"filename": "Bug_Interference_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 9,
+						"w": 44,
+						"h": 46
+					},
+					"frame": {
+						"x": 983,
+						"y": 347,
+						"w": 44,
+						"h": 46
+					}
+				},
+				{
+					"filename": "Bug_NightmareWoodLouse_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 9,
+						"w": 44,
+						"h": 46
+					},
+					"frame": {
+						"x": 1029,
+						"y": 347,
+						"w": 44,
+						"h": 46
+					}
+				},
+				{
+					"filename": "Bug_Poisoned2_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 43,
+						"h": 46
+					},
+					"frame": {
+						"x": 938,
+						"y": 396,
+						"w": 43,
+						"h": 46
+					}
+				},
+				{
+					"filename": "Starship_C_96x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 45,
+						"h": 45
+					},
+					"frame": {
+						"x": 983,
+						"y": 395,
+						"w": 45,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Bug_MoonLight_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 9,
+						"w": 43,
+						"h": 45
+					},
+					"frame": {
+						"x": 1030,
+						"y": 395,
+						"w": 43,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Bug_Infected_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 43,
+						"h": 44
+					},
+					"frame": {
+						"x": 938,
+						"y": 444,
+						"w": 43,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Bug_Scout_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 43,
+						"h": 46
+					},
+					"frame": {
+						"x": 983,
+						"y": 442,
+						"w": 43,
+						"h": 46
+					}
+				},
+				{
+					"filename": "IonCannon_A_Photon_119x119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 9,
+						"w": 44,
+						"h": 45
+					},
+					"frame": {
+						"x": 1028,
+						"y": 442,
+						"w": 44,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Component_WingShip_Spike_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 22,
+						"w": 32,
+						"h": 22
+					},
+					"frame": {
+						"x": 1028,
+						"y": 489,
+						"w": 32,
+						"h": 22
+					}
+				},
+				{
+					"filename": "Object_Category_2_13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 12,
+						"w": 22,
+						"h": 41
+					},
+					"frame": {
+						"x": 1075,
+						"y": 347,
+						"w": 22,
+						"h": 41
+					}
+				},
+				{
+					"filename": "Bug_Egg_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 42,
+						"h": 45
+					},
+					"frame": {
+						"x": 1075,
+						"y": 390,
+						"w": 42,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Bug_Poison_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 43,
+						"h": 45
+					},
+					"frame": {
+						"x": 1119,
+						"y": 387,
+						"w": 43,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Scorpion_Evo_112x102.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 11,
+						"w": 44,
+						"h": 45
+					},
+					"frame": {
+						"x": 1164,
+						"y": 389,
+						"w": 44,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Bug_Ancient_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 13,
+						"w": 42,
+						"h": 42
+					},
+					"frame": {
+						"x": 1210,
+						"y": 397,
+						"w": 42,
+						"h": 42
+					}
+				},
+				{
+					"filename": "Starship_B_96x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 45,
+						"h": 43
+					},
+					"frame": {
+						"x": 1254,
+						"y": 394,
+						"w": 45,
+						"h": 43
+					}
+				},
+				{
+					"filename": "Bug_Poisoned3_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 43,
+						"h": 45
+					},
+					"frame": {
+						"x": 1301,
+						"y": 427,
+						"w": 43,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Bug_Poisoned_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 43,
+						"h": 44
+					},
+					"frame": {
+						"x": 1346,
+						"y": 434,
+						"w": 43,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Bug_Swamp_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 43,
+						"h": 45
+					},
+					"frame": {
+						"x": 1391,
+						"y": 446,
+						"w": 43,
+						"h": 45
+					}
+				},
+				{
+					"filename": "AngelWing_B_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 13,
+						"w": 17,
+						"h": 25
+					},
+					"frame": {
+						"x": 1395,
+						"y": 173,
+						"w": 17,
+						"h": 25
+					}
+				},
+				{
+					"filename": "AngelWing_F_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 10,
+						"w": 25,
+						"h": 32
+					},
+					"frame": {
+						"x": 1436,
+						"y": 446,
+						"w": 25,
+						"h": 32
+					}
+				},
+				{
+					"filename": "Bug_ScottEco_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 42,
+						"h": 45
+					},
+					"frame": {
+						"x": 780,
+						"y": 403,
+						"w": 42,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Bug_Vision_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 43,
+						"h": 45
+					},
+					"frame": {
+						"x": 793,
+						"y": 450,
+						"w": 43,
+						"h": 45
+					}
+				},
+				{
+					"filename": "Wings_A_96x120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 6,
+						"w": 36,
+						"h": 42
+					},
+					"frame": {
+						"x": 838,
+						"y": 446,
+						"w": 36,
+						"h": 42
+					}
+				},
+				{
+					"filename": "AngelWing_A_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 13,
+						"w": 9,
+						"h": 25
+					},
+					"frame": {
+						"x": 824,
+						"y": 401,
+						"w": 9,
+						"h": 25
+					}
+				},
+				{
+					"filename": "Bug_NightVision_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 9,
+						"w": 42,
+						"h": 44
+					},
+					"frame": {
+						"x": 1075,
+						"y": 437,
+						"w": 42,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Bug_PinkRevenge_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 42,
+						"h": 44
+					},
+					"frame": {
+						"x": 1119,
+						"y": 434,
+						"w": 42,
+						"h": 44
+					}
+				},
+				{
+					"filename": "Bug_PoisonInfected_80x80.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 42,
+						"h": 44
+					},
+					"frame": {
+						"x": 1163,
+						"y": 436,
+						"w": 42,
+						"h": 44
+					}
+				},
+				{
+					"filename": "AquaCruiser_A_122x122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 37,
+						"h": 35
+					},
+					"frame": {
+						"x": 1207,
+						"y": 441,
+						"w": 37,
+						"h": 35
+					}
+				},
+				{
+					"filename": "Component_WingShip_Spider_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 21,
+						"w": 33,
+						"h": 31
+					},
+					"frame": {
+						"x": 1119,
+						"y": 480,
+						"w": 33,
+						"h": 31
+					}
+				},
+				{
+					"filename": "AngelWing_E_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 10,
+						"w": 23,
+						"h": 29
+					},
+					"frame": {
+						"x": 1154,
+						"y": 482,
+						"w": 23,
+						"h": 29
+					}
+				},
+				{
+					"filename": "Component_WingShip_StagBeetle_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 14,
+						"w": 33,
+						"h": 27
+					},
+					"frame": {
+						"x": 1179,
+						"y": 482,
+						"w": 33,
+						"h": 27
+					}
+				},
+				{
+					"filename": "Mutant_SpaceMorphWasp_Mother_553x552.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 16,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 1214,
+						"y": 478,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "Component_WingShip_Bat_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 24,
+						"w": 37,
+						"h": 17
+					},
+					"frame": {
+						"x": 838,
+						"y": 490,
+						"w": 37,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Component_WingShip_Thunder_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 24,
+						"w": 36,
+						"h": 26
+					},
+					"frame": {
+						"x": 877,
+						"y": 483,
+						"w": 36,
+						"h": 26
+					}
+				},
+				{
+					"filename": "Component_WingShip_Spike2_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 24,
+						"w": 36,
+						"h": 17
+					},
+					"frame": {
+						"x": 1074,
+						"y": 483,
+						"w": 36,
+						"h": 17
+					}
+				},
+				{
+					"filename": "Mutant_SpaceMorphWasp_Mother_B_553x552.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 16,
+						"w": 32,
+						"h": 32
+					},
+					"frame": {
+						"x": 1246,
+						"y": 441,
+						"w": 32,
+						"h": 32
+					}
+				},
+				{
+					"filename": "Component_WingShip_Bat2_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 20,
+						"w": 31,
+						"h": 25
+					},
+					"frame": {
+						"x": 1248,
+						"y": 475,
+						"w": 31,
+						"h": 25
+					}
+				},
+				{
+					"filename": "Component_WingShip_Quad_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 20,
+						"w": 26,
+						"h": 24
+					},
+					"frame": {
+						"x": 1436,
+						"y": 480,
+						"w": 26,
+						"h": 24
+					}
+				},
+				{
+					"filename": "AngelWing_D_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 11,
+						"w": 23,
+						"h": 27
+					},
+					"frame": {
+						"x": 1281,
+						"y": 474,
+						"w": 23,
+						"h": 27
+					}
+				},
+				{
+					"filename": "AngelWing_C_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 13,
+						"w": 22,
+						"h": 25
+					},
+					"frame": {
+						"x": 1306,
+						"y": 474,
+						"w": 22,
+						"h": 25
+					}
+				},
+				{
+					"filename": "Component_WingShip_Minimal_150x100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 24,
+						"w": 22,
+						"h": 20
+					},
+					"frame": {
+						"x": 1330,
+						"y": 480,
+						"w": 22,
+						"h": 20
+					}
+				},
+				{
+					"filename": "DragonShip_Sketch_450x502.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1342,
+						"y": 231,
+						"w": 3,
+						"h": 3
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:6903b79f3bf112ca6fb6ccba837ba7f2:522da9fdd29f5b72a52146f76afea3fa:78154fe33c5dfc8c7f67f0a3677ac0ac$"
+	}
+}

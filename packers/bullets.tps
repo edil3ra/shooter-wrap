@@ -26,15 +26,15 @@
             </struct>
         </array>
         <key>allowRotation</key>
-        <true/>
+        <false/>
         <key>shapeDebug</key>
         <false/>
         <key>dpi</key>
         <uint>72</uint>
         <key>dataFormat</key>
-        <string>xml</string>
+        <string>phaser</string>
         <key>textureFileName</key>
-        <filename>../assets/beam_jet.png</filename>
+        <filename>../public/assets/images/bullets.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -129,10 +129,10 @@
         </struct>
         <key>dataFileNames</key>
         <map type="GFileNameMap">
-            <key>data</key>
+            <key>json</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../assets/beam_jet.xml</filename>
+                <filename>../public/assets/json/bullets.json</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -181,14 +181,14 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">../images/shooter/beam_jet/BeamB_01.png</key>
-            <key type="filename">../images/shooter/beam_jet/BeamB_02.png</key>
-            <key type="filename">../images/shooter/beam_jet/BeamB_03.png</key>
-            <key type="filename">../images/shooter/beam_jet/BeamB_04.png</key>
-            <key type="filename">../images/shooter/beam_jet/BeamB_05.png</key>
-            <key type="filename">../images/shooter/beam_jet/BeamB_06.png</key>
-            <key type="filename">../images/shooter/beam_jet/BeamB_07.png</key>
-            <key type="filename">../images/shooter/beam_jet/BeamB_08.png</key>
+            <key type="filename">assets/bullets/bullets1_0014_Rectangle---------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0015_Rectangle---------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0020_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0026_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0028_Rectangle---------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0029_Rectangle---------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0034_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0040_Circle------------------.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -197,13 +197,16 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>11,16,22,31</rect>
+                <rect>5,5,10,10</rect>
                 <key>scale9Paddings</key>
-                <rect>11,16,22,31</rect>
+                <rect>5,5,10,10</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../images/shooter/beam_jet/BeamB_09.png</key>
+            <key type="filename">assets/bullets/bullets1_0016_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0022_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0030_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0036_Circle------------------.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -212,22 +215,16 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>10,16,21,31</rect>
+                <rect>3,10,5,20</rect>
                 <key>scale9Paddings</key>
-                <rect>10,16,21,31</rect>
+                <rect>3,10,5,20</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../images/shooter/beam_jet/b2_01.png</key>
-            <key type="filename">../images/shooter/beam_jet/b2_02.png</key>
-            <key type="filename">../images/shooter/beam_jet/b2_03.png</key>
-            <key type="filename">../images/shooter/beam_jet/b2_04.png</key>
-            <key type="filename">../images/shooter/beam_jet/b2_05.png</key>
-            <key type="filename">../images/shooter/beam_jet/b2_06.png</key>
-            <key type="filename">../images/shooter/beam_jet/b2_07.png</key>
-            <key type="filename">../images/shooter/beam_jet/b2_08.png</key>
-            <key type="filename">../images/shooter/beam_jet/b2_09.png</key>
-            <key type="filename">../images/shooter/beam_jet/b2_10.png</key>
+            <key type="filename">assets/bullets/bullets1_0017_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0023_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0031_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0037_Circle------------------.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -236,22 +233,16 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>5,32,9,65</rect>
+                <rect>3,8,5,15</rect>
                 <key>scale9Paddings</key>
-                <rect>5,32,9,65</rect>
+                <rect>3,8,5,15</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../images/shooter/beam_jet/beams_01.png</key>
-            <key type="filename">../images/shooter/beam_jet/beams_02.png</key>
-            <key type="filename">../images/shooter/beam_jet/beams_03.png</key>
-            <key type="filename">../images/shooter/beam_jet/beams_04.png</key>
-            <key type="filename">../images/shooter/beam_jet/beams_05.png</key>
-            <key type="filename">../images/shooter/beam_jet/beams_06.png</key>
-            <key type="filename">../images/shooter/beam_jet/beams_07.png</key>
-            <key type="filename">../images/shooter/beam_jet/beams_08.png</key>
-            <key type="filename">../images/shooter/beam_jet/beams_09.png</key>
-            <key type="filename">../images/shooter/beam_jet/beams_10.png</key>
+            <key type="filename">assets/bullets/bullets1_0018_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0024_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0032_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0038_Circle------------------.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -260,42 +251,16 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>5,26,9,51</rect>
+                <rect>3,5,5,10</rect>
                 <key>scale9Paddings</key>
-                <rect>5,26,9,51</rect>
+                <rect>3,5,5,10</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../images/shooter/beam_jet/try4_01.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_02.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_03.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_04.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_05.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_06.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_07.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_08.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_09.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_10.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_11.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_12.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_13.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_14.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_15.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_16.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_17.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_18.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_19.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_20.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_21.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_22.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_23.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_24.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_25.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_26.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_27.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_28.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_29.png</key>
-            <key type="filename">../images/shooter/beam_jet/try4_30.png</key>
+            <key type="filename">assets/bullets/bullets1_0019_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0025_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0033_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0039_Circle------------------.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -304,16 +269,61 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>5,16,9,31</rect>
+                <rect>8,8,15,15</rect>
                 <key>scale9Paddings</key>
-                <rect>5,16,9,31</rect>
+                <rect>8,8,15,15</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">assets/bullets/bullets1_0021_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0027_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0035_Circle------------------.png</key>
+            <key type="filename">assets/bullets/bullets1_0041_Circle------------------.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>3,3,5,5</rect>
+                <key>scale9Paddings</key>
+                <rect>3,3,5,5</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>../images/shooter/beam_jet</filename>
+            <filename>assets/bullets/bullets1_0014_Rectangle---------------.png</filename>
+            <filename>assets/bullets/bullets1_0015_Rectangle---------------.png</filename>
+            <filename>assets/bullets/bullets1_0016_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0017_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0018_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0019_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0020_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0021_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0022_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0023_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0024_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0025_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0026_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0027_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0028_Rectangle---------------.png</filename>
+            <filename>assets/bullets/bullets1_0029_Rectangle---------------.png</filename>
+            <filename>assets/bullets/bullets1_0030_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0031_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0032_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0033_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0034_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0035_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0036_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0037_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0038_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0039_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0040_Circle------------------.png</filename>
+            <filename>assets/bullets/bullets1_0041_Circle------------------.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
