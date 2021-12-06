@@ -1,3 +1,5 @@
+import { PlayerAction } from '~/types/main'
+
 type SkipScene = 'noSkip' | 'game' 
 
 
@@ -18,6 +20,16 @@ export class Config {
         keys: {
             game: 'gameScene',
             boot: 'bootScene',
+        }
+    }
+
+    public static getDefaultPlayerAction(): PlayerAction {
+        return {
+            direction: {
+                x: 0,
+                y: 0,
+            },
+            is_fire: false
         }
     }
 }

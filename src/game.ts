@@ -1,6 +1,7 @@
 import { BootScene } from '~/scenes/bootScene'
 import { GameScene } from '~/scenes/gameScene'
 import * as Phaser from 'phaser'
+import { Config } from './config'
 
 export class MyGame extends Phaser.Game {
     constructor() {
@@ -22,6 +23,11 @@ export class MyGame extends Phaser.Game {
             ],
         })
     }
+
+    public getGameScene(): GameScene {
+        return this.scene.getScene(Config.scenes.keys.game) as GameScene
+    }
+    
 }
 
 
