@@ -17,6 +17,13 @@ export class MyGame extends Phaser.Game {
             dom: {
                 createContainer: true,
             },
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    debug: true,
+                    gravity: { x: 0, y: 0 },
+                }
+            },
             scene: [
                 BootScene,
                 GameScene,

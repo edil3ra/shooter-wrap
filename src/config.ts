@@ -1,5 +1,4 @@
 import { PlayerAction } from '~/types/main'
-
 type SkipScene = 'noSkip' | 'game' 
 
 
@@ -32,4 +31,16 @@ export class Config {
             is_fire: false
         }
     }
+ 
+   public static readonly entities = {
+       player: {
+           texture: 'ships',
+           frame:'Wings_B_96x120.png',
+           width: 32,
+           height: 32,
+           body: {
+               radius: 8,
+           }
+       }
+   }
 }
